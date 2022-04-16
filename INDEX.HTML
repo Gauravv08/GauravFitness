@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAURAV FITNESS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+/* css reset  */
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("img/gym-5977600_960_720.jpg" ) ;
+    background-size: 1700px 1200px;
+    
+    color: aliceblue;
+    font-family: cursive;
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+.mid{
+    display: block;
+    width: 52%;
+    /* border: 2px solid rgb(253, 100, 184); */
+    margin:20px auto;
+}
+.right{
+    /* border: 2px solid rgb(15, 189, 241); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 33px;
+}
+
+.navbar{
+    display: inline-block;
+   
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a {
+
+color: white;
+text-decoration: none;
+padding: 28px;
+
+}
+.navbar li a:hover,.navbar li a.active {
+
+
+text-decoration: underline;
+color: rgb(192, 233, 8);
+
+
+}
+.left img{
+    width:67px ;
+    display: block;
+    margin: auto;
+    
+}
+.left div{
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+    color:rgb(187, 230, 18) ;
+    font-weight:bold ;
+}
+.btn{
+    margin: 0px 6px;
+color: white;
+background-color:black;
+padding: 4px 14px;
+border: 2px solid grey;
+font-size: 15px;
+cursor: pointer;
+font-family: cursive;
+width: 124px;
+border-radius: 4px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid rgb(239, 243, 239);
+    margin: 50px 47px;
+    padding: 2px 44px;
+    width: 33%;
+    border-radius: 29px;
+    font-size: 15px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 448px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 3px auto;
+   border-radius: 8px;
+   font-family: cursive
+    font-size: 12px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 95%;
+    margin:20px auto;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+    <!-- left for logo  -->
+    <div class="left">
+<img src="img/istockphoto-1174731078-612x612.jpg" alt="">
+<div>GAURAV FITNESS</div>
+
+    </div>
+    <!-- mid for navigation -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">home</a></li>
+            <li><a href="#">About us </a></li>
+            <li><a href="#">fitness calculator</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+
+    </div>
+    <!-- right for buttons -->
+    <div class="right">
+        <BUTTON class="btn">CALL us now</BUTTON>
+        <BUTTON class="btn">email us</BUTTON>
+    </div>
+    <div class="container">
+       <h1>join the best gym of delhi now</h1>\
+       <form action="noaction.php">
+       
+           <div class="form-group">
+<input type="text " name="" placeholder="enter your name">
+           </div>
+           <div class="form-group">
+<input type="text " name="" placeholder="enter your age">
+           </div>
+           <div class="form-group">
+<input type="text " name="" placeholder="enter your gender">
+           </div>
+           <div class="form-group">
+<input type="text " name="" placeholder="enter your locality">
+           </div>
+           <div class="form-group">
+<input type="text " name="" placeholder="enter your phone number">
+           </div>
+           <div class="form-group">
+<input type="text " name="" placeholder="enter your email id">
+           </div>
+       <button class="btn">submit
+
+       </button>
+    </form>
+    </div>
+</header>
+</body>
+</html>
